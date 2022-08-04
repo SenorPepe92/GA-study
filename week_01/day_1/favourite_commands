@@ -1,0 +1,122 @@
+    1  cd Desktop/sei/week1/
+    2  ls -l
+    3  top
+    4  ls -la
+    5  mkdir house 
+    6  ls 
+    7  cd house 
+    8  pwd
+    9  cd .
+   10  mkdir bathroom 
+   11  mkdir bedroom kitchen library
+   12  cd library/
+   13  touch bookshelf
+   14  touch bar
+   15  ls
+   16  ls -l
+   17  echo HELLO WORLD
+   18  echo 
+   19  echo "Quicksilver" > bookshelf
+   20  cat bookshelf 
+   21  echo "Debt" > bookshelf 
+   22  cat bookshelf 
+   23  echo "Quicksilver" >> bookshelf 
+   24  cat bookshelf 
+   25  echo "Eloquent Javascript" >> bookshelf 
+   26  cat bookshelf 
+   27  echo "Ulysses" >> bookshelf 
+   28  echo "Eat Pray Love" >> bookshelf 
+   29  cat bookshelf 
+   30  echo "Glenliver" >> bar
+   31  echo "Spiced Rum" >> bar
+   32  echo "breakfat" >> bar
+   33  cat bar 
+   34  bat bookshelf bar
+   35  cat bookshelf bar 
+   36  cat *
+   37  cat b*
+   38  cd
+   39  cd ..
+   40  ls
+   41  cd adenp/Desktop/
+   42  ls
+   43  cd sei/week1/
+   44  ls
+   45  cd house 
+   46  ls
+   47  cd library/
+   48  ls
+   49  cat bookshelf 
+   50  cat library
+   51  ls
+   52  cat *
+   53  cat bar
+   54  cat bookshelf 
+   55  echo *
+   56  cat *
+   57  cat b*
+   58  ls *m
+   59  cat *m
+   60  cat *r
+   61  ls *a*
+   62  ls
+   63  ls *f
+   64  open .
+   65  touch .games_room
+   66  ls 
+   67  ls -l
+   68  ls -la
+   69  ls 
+   70  ls -a
+   71  rm .games_room
+   72  cd ..
+   73  ls
+   74  touch extension/observatory
+   75  ls
+   76  cat extension 
+   77  find . 
+   78  cd library/
+   79  find . 
+   80  cd .. 
+   81  ls
+   82  find ..
+   83  cd ..
+   84  sl
+   85  find .
+   86  cd house
+   87  cat books
+   88  cd library/bookshelf 
+   89  cd library/
+   90  ls
+   91  cat books 
+   92  touch books
+   93  ls 
+   94  cat books
+   95  cat bookshelf 
+   96  rm books
+   97  ls
+   98  cat bookshelf 
+   99  cat bookshelf | sort
+  100  ls
+  101  cat bookshelf | sort > sorted_books
+  102  ls
+  103  cat sorted_books 
+  104  mv sorted_books bookshelf 
+  105  ls
+  106  cat bookshelf 
+  107  cat bookshelf | grep script
+  108  cp bookshelf my_books
+  109  ls
+  110  find .
+  111  cat my_books 
+  112  rm my_books 
+  113  find .
+  114  mkdir projects
+  115  ls
+  116  rm -r projects/
+  117  ls
+  118  uptime >> favourite_uptime
+  119  history 
+  120  cd ..
+  121  cd ..
+  122  history >> favourite_commands

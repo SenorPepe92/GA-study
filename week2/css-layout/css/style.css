@@ -1,0 +1,26 @@
+
+/* * { 
+    border: 1px solid;
+} */
+
+div.inlineExample {
+    border: 1px solid red;
+    display: inline;
+    width: 30%; 
+}
+
+div.blockExample {
+    border: 1px solid green; 
+    display: block; 
+    width: 30%; 
+}
+
+div.inlineBlockExample {
+    border: 1px solid blue; 
+    display: inline-block; 
+    width: 30%; 
+}
+
+div.displayNone { 
+    display: none;
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: #d6d6d6;
+}
+.background-image {
+    height: 175px;
+    background-image: url("/ecardly_solution/images/background.jpg");
+    background-repeat: repeat-x;
+}
+.title-image {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+    margin-bottom:50px;
+}
+.main-body {
+    margin: auto;
+    display: flex;
+    background-color: white;
+    width: 940px;
+}
+.main-body img {
+    padding: 20px;
+}
+#main {
+    width: 640px;  
+}
+#sidebar { 
+    width: 280px;
+    padding-top: 50px;
+}

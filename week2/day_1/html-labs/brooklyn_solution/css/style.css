@@ -1,0 +1,12 @@
+/* * {
+    border: 1px solid
+} */
+
+h1, h2, p {
+    color: grey
+}
+
+section, .home-images {
+    width: 75%    
+}
+
