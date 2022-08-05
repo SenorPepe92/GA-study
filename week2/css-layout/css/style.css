@@ -1,3 +1,39 @@
+.box { 
+    display: inline-block;
+    width: 150px; 
+    height: 150px; 
+    text-align: center; 
+    vertical-align: top; 
+    border: 1px solid black; 
+}
+
+.staticExample {
+    position: static; /* this is the default anyway */
+    left: 100px; /* this has no effect due to 'static */ 
+}
+
+.relativeExample { 
+    position: relative;
+    left: 50px; /* pushes from the left to the right  */
+    top: 100px;
+}
+
+.absoluteExample { 
+    position: absolute; 
+    top: 50px;
+    left: 100px;  
+    height: auto; 
+}
+
+.parentOfAbsolute {
+    position: relative;
+}
+
+.fixedExample { 
+    position: fixed; 
+    top: 20px; 
+    right:10px; 
+}
 
 /* * { 
     border: 1px solid;

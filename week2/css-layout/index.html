@@ -9,6 +9,39 @@
     <h1>CSS Layout</h1>
     <p>Let's do this today</p>
 
+    <div class="box staticExample">
+        <strong>static (default):</strong>
+        <br>
+        the position is whatever the browser calculates for the this element in the page flow. You cant change it with top/left CSS offsets
+    </div>
+
+
+
+       
+    <div class="box relativeExample">
+        <strong>relative:</strong>
+        <br>
+        Offstes <em>do</em> work and are calculated realtive to the the default (static) position in browsers page flow.
+    </div>
+
+    <div class="box parentOfAbsolute">
+        <strong>Parent of absolute</strong>
+        <div class="box absoluteExample">
+            <strong>absolute:</strong>
+            <br>
+            Offsets work and are calutated relative to the nearest containing element (ancestor) which has a specifc non-static position value.. otherwise it is relative the body tag i.e. whole document
+        </div>
+    </div>     <!-- div.parentOfAbsolute -->
+   
+    <div class="box fixedExample">
+        <strong>fixed:</strong>
+        <br>
+        Offsets are calutated relative to the entire browser window (viewport) - i.e. the element does NOT move when you scroll the document
+    </div>
+
+    <br>
+    <br>
+
     <div class="inlineExample">
         This element has <code>display:inline</code> 
     </div>
@@ -36,6 +69,9 @@
     <div class="inlineBlockExample">
         This element is also <code>display:inline-block</code> 
     </div>
+    <br>
+    <br>
+
 
 
 </body>
