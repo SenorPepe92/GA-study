@@ -1,2 +1,4 @@
 My first Github Repo 
 Hello Odin
+
+Commiting without a message tag 
