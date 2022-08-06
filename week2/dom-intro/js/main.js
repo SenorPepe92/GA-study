@@ -24,3 +24,12 @@ const runNicely = function( functionToRunNicely) {
     functionToRunNicely();
     console.log('It was a real pleasure to run the function for you');
 }
+
+//// end of callbacks functions preview 
+
+// DOM access methods 
+// grab tags from the page via JS and manipulate them 
+
+const firstPara = document.getElementById( 'intro' );
+console.dir(firstPara)
+
