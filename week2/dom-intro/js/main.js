@@ -32,4 +32,5 @@ const runNicely = function( functionToRunNicely) {
 
 const firstPara = document.getElementById( 'intro' );
 console.dir(firstPara)
+return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
 
