@@ -31,6 +31,25 @@ const runNicely = function( functionToRunNicely) {
 // grab tags from the page via JS and manipulate them 
 
 const firstPara = document.getElementById( 'intro' );
-console.dir(firstPara)
+console.dir(firstPara);
+console.log('first para', firstPara);
 
+const allParagraphs = document.getElementsByTagName('p'); 
+console.log('all P tags:', allParagraphs)
 
+// for(let i = 0; i < allParagraphs.length; i++){
+//     const currentPara = allParagraphs[i]; 
+//     console.log(i, currentPara);
+// }
+
+// for(let i = 0; i < allParagraphs.length; i++){
+//     const currentPara = allParagraphs[i]; 
+//     console.log(i, currentPara.innerHTML);
+// }
+
+// document.getElementsByTagName('a')
+
+// const allSpecial = document.getElementsByClassName('special')
+// console.log('all special class tags: ', allSpecial);
+
+document.querySelectorAll('.special')
