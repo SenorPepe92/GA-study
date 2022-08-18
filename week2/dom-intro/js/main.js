@@ -53,3 +53,31 @@ console.log('all P tags:', allParagraphs)
 // console.log('all special class tags: ', allSpecial);
 
 document.querySelectorAll('.special')
+
+// Add a new image to the page
+
+// First create a blank 'detached' node
+const newImgTag = document .createElement('img'); 
+
+// Set the essential attributes 
+newImgTag.src = 'https://www.placebear.com/300/300';
+newImgTag.alt = 'A cuddly huge bear';
+
+newImgTag.style.border = '2px dashed pink'; 
+
+// Now also create a link tag to wrap the image in 
+const newLinkTag = document.createElement('a'); 
+newLinkTag.href = 'https://www.placebear.com'; 
+
+// Now append the image tag to the a tag
+newLinkTag.appendChild(newImgTag); 
+
+// Attach the outmost link tag to the DOM 
+firstPara.appendChild(newLinkTag);
+
+
+// Attach the new tag to the actual DOM
+// document.body.appendChild(newImgTag)
+
+// firstPara.prepend(newImgTag)
+// firstPara.insertBefore(newImgTag)
