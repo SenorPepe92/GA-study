@@ -9,6 +9,11 @@ Create a new img element and set its src attribute to a picture of you. Append t
  <head>
   <meta charset="utf-8"/>
   <title>About Me</title>
+  <style>
+    .listItem {
+      color: red;
+    }
+  </style>
 </head>
 <body>
   <h1>About Me</h1>
@@ -18,7 +23,6 @@ Create a new img element and set its src attribute to a picture of you. Append t
     <li>Favorites:  <span id="favorites"></span>
     <li>Hometown: <span id="hometown"></span>
    </ul>
-  
 
    <script src="aboutme.js"></script>  
    <!-- We need to load the JS at the end so the DOM contents are loaded before we try to access them  -->
