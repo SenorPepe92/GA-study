@@ -10,6 +10,11 @@ var books = [
       title: 'The Most Human Human',
       author: 'Brian Christian',
       alreadyRead: true
+    },
+    {
+      title: 'Ailsa Life',
+      author: 'Ailsa',
+      alreadyRead: false
     }
   ];
 
@@ -18,6 +23,8 @@ var books = [
 // Bonus: Use a ul and li to display the books.
 
 const ulContainer = document.createElement('ul'); 
+
+//     Part 1 of the solution 
 
 //   for (let i = 0; i < books.length; i++) {
 //     const bookTitle = books[i].title;
@@ -34,6 +41,7 @@ const ulContainer = document.createElement('ul');
 //     document.body.appendChild(newP) // added to the live DOM
 //   }
 
+// Part 2 of the solution 
   for (let i = 0; i < books.length; i++) {
     const bookTitle = books[i].title;
     // console.log('Title:', bookTitle);

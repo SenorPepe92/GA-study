@@ -81,3 +81,31 @@ firstPara.appendChild(newLinkTag);
 
 // firstPara.prepend(newImgTag)
 // firstPara.insertBefore(newImgTag)
+
+// const intervalID = setInterval(function () {
+//     console.log('Hello from anon interval callback');
+//     console.log(Math.random());
+// }, 3000); 
+
+// Exercise
+
+const billImg = document.querySelector('#bill'); 
+
+// const billIntervalID = setInterval(function() {
+//     // billImg.width += 10;
+//     const currentTopOffSet = parseInt (billImg.style.top); 
+//     console.log(currentTopOffSet);
+//     const newTopOffSet = currentTopOffSet + 10; 
+//     billImg.style.top = newTopOffSet + 'px'
+// }, 300);
+
+billImg.style.top = '0px'
+billImg.style.position = 'absolute'
+
+setInterval(function() {
+    // billImg.width += 10;
+    const currentTopOffSet = parseInt (billImg.style.top); 
+    console.log(currentTopOffSet);
+    const newTopOffSet = currentTopOffSet + 1; 
+    billImg.style.top = newTopOffSet + 'px'
+}

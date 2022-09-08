@@ -26,3 +26,9 @@ p {
 * { 
     border: 1px solid;
 }
+
+#bill { 
+    position: absolute;
+    top: 0px;
+} 
+/* JS Wont notice this code */
